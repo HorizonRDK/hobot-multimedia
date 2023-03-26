@@ -1,0 +1,5 @@
+#!/bin/sh
+
+echo "rm -rf /lib/sensorlib /lib/firmware/libmm/"
+rm -rf /lib/sensorlib
+rm -rf /lib/firmware/libmm/

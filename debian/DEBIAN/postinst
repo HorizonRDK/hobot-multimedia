@@ -1,0 +1,8 @@
+#!/bin/sh
+
+echo "link libs from /usr/lib/hobot to /lib"
+ln -sf /usr/lib/hobot/firmware/libmm /lib/firmware/libmm
+echo "run ldconfig"
+ldconfig
+exit 0
+
